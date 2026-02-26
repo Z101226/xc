@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <!-- 文档类型声明 -->
+    <meta charset="UTF-8"> <!-- 字符编码设置 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 响应式设计设置 -->
+    <title>联系我们 - 北京市京徽龙江科技有限公司</title> <!-- 页面标题 -->
+    <link rel="stylesheet" href="styles.css"> <!-- 外部样式表引入 -->
+</head>
+<body>
+    <!-- 导航栏 -->
+    <!-- 功能：提供网站主要页面的导航链接，支持移动端响应式菜单 -->
+    <nav class="navbar">
+        <div class="container">
+            <!-- 公司logo -->
+            <div class="logo">
+                <img src="img/logo.png" alt="北京市京徽龙江科技有限公司LOGO" class="logo-img">
+                <h1>北京市京徽龙江科技有限公司</h1>
+            </div>
+            
+            <!-- 导航链接 -->
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">首页</a></li>
+                <li><a href="culture.html" class="nav-link">企业文化</a></li>
+                <li><a href="team.html" class="nav-link">团队介绍</a></li>
+                <li><a href="products.html" class="nav-link">产品中心</a></li>
+                <li><a href="news.html" class="nav-link">新闻动态</a></li>
+                <li><a href="contact.html" class="nav-link active">联系我们</a></li>
+            </ul>
+            
+            <!-- 移动端菜单按钮 -->
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+  
+
+    <main>
+        <!-- 联系我们页面 -->
+        <!-- 功能：展示公司的联系方式和留言咨询表单 -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>联系我们</h2>
+                <!-- 联系内容 -->
+                <!-- 功能：包含联系方式和留言表单两部分 -->
+                <div class="contact-content">
+                    <!-- 联系方式 -->
+                    <!-- 功能：展示公司的详细联系信息 -->
+                    <div class="contact-info">
+                        <h3>联系方式</h3>
+                        <p><strong>公司名称：</strong>北京市京徽龙江科技有限公司</p>
+                        <p><strong>总部地址：</strong>北京市通州区宋庄镇喇嘛庄村北东马地</p>
+                        <p><strong>生产基地：</strong>河北省三河市燕郊经济技术开发区燕昌204号路</p>
+                        <p><strong>总经理：</strong>13377619173</p>
+                        <p><strong>销售：</strong>18733329660</p>
+                        <p><strong>销售：</strong>18510133991</p>
+                        <p><strong>邮箱：</strong>80725764@qq.com</p>
+                    </div>
+                    
+                    <!-- 留言咨询表单 -->
+                    <!-- 功能：提供用户留言咨询的表单 -->
+                    <div class="contact-form">
+                        <h3>留言咨询</h3>
+                        <form id="contactForm">
+                            <input type="text" placeholder="姓名" required>
+                            <input type="email" placeholder="邮箱" required>
+                            <input type="tel" placeholder="电话" required>
+                            <textarea placeholder="留言内容" required></textarea>
+                            <button type="submit" class="btn">提交</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 公司联系信息 -->
+    <!-- 功能：展示公司详细信息和联系方式 -->
+    <div class="company-contact">
+        <div class="container">
+            <!-- 左侧公司介绍 -->
+            <div class="contact-info-left">
+                <h3>北京市京徽龙江科技有限公司</h3>
+                <p>作为一个新型的高新技术企业,公司始终坚持"团结拼搏、自我加压、争创一流"的企业精神,坚持"质量第一、信誉至上、行胜于言、打造满意服务"的经营理念,使公司上下形成团结一致,拼搏奋进的良好工作氛围,增强企业的凝聚力和向心力。</p>
+                <p>我们坚信"质量出效益,服务树形象"。质量方针：强化质量管理,持续提升产品质量，坚持优质服务,不断满足用户需求。</p>
+                <p>我们本着以诚信为前提、质量为保证、顾客满意为焦点的经营宗旨,愿与国内外朋友真诚合作，共创工业科技行业的明天!</p>
+            </div>
+            
+            <!-- 右侧联系信息 -->
+            <div class="contact-info-right">
+                <h3>联系我们</h3>
+                <p><strong>总部地址：</strong>北京市通州区宋庄镇喇嘛庄村北东马地</p>
+                <p><strong>生产基地：</strong>河北省三河市燕郊经济技术开发区燕昌204号路</p>
+                <p><strong>总经理：</strong>13377619173</p>
+                <p><strong>销售：</strong>18733329660</p>
+                <p><strong>销售：</strong>18510133991</p>
+                <p><strong>邮箱：</strong>80725764@qq.com</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <!-- 功能：显示版权信息 -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2006-2026 北京市京徽龙江科技有限公司 版权所有</p>
+        </div>
+    </footer>
+
+    <!-- 外部JavaScript引入 -->
+    <!-- 功能：实现导航栏菜单切换和新闻动态分页功能 -->
+    <script src="script.js"></script>
+</body>
+</html>
